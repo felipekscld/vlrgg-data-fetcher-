@@ -1,0 +1,5 @@
+# Ignora todos os arquivos JSON na pasta data/
+data/*.json
+
+# Mantém a pasta data/ visível no repositório
+!data/.gitkeep
