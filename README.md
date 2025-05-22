@@ -8,43 +8,35 @@ Após testes, foi identificado que não seria possível fazer o tipo de análise
 - Obtenção de resultados de partidas, partidas futuras, partidas ao vivo, rankings por região, stats por região e últimas notícias
 - Armazenamento em JSON dos dados
 
-## Endpoints disponíveis 
-Você pode alterar o valor da variável `endpoint` no script `main.py` para coletar diferentes tipos de dados da API do vlr.gg:
-
-
-| Descrição                 | Endpoint                                   | Nome sugerido do arquivo          |
-|---------------------------|-------------------------------------------|-----------------------------------|
-| Resultados                | `match?q=results`                         | `matches_results.json`            |
-| Partidas futuras          | `match?q=upcoming`                        | `matches_upcoming.json`           |
-| Partidas ao vivo          | `match?q=live_score`                      | `matches_live.json`               |
-| Ranking      | `rankings?region=br`                      | `rankings_br.json`                |
-| Stats  | `stats?region=br&timespan=all`           | `stats_br_all.json`               |
-| Últimas notícias          | `news`                                    | `noticias.json`                   |
-| Verificação da API        | `health`                                  | opcional
-
-- O nome do arquivo que você escolher vai ser criado na pasta `data`
-> ℹ️ **Para o endpoint** `rankings`, você pode alterar o valor de `region` para:  
-> `br`, `na`, `latam`, `eu`, `asia`, `kr`, `oce`, `mena`, `jp`, `tr` ou `world`.
-
-> ℹ️ **Para o endpoint** `stats`, é possível alterar tanto a `region` quanto o `timespan` (em dias como `30`, `90`, `all`, etc.).
-
-
-## Como executar
+## Como usar
 Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-E execute o script principal:
+Execute o menu principal com:
 ```
-python main.py
+python main_menu.py
 ```
 
+Você verá o seguinte menu no terminal:
+```
+== MENU VLRGGAPI ==
+1 - Resultados de partidas
+2 - Partidas futuras
+3 - Partidas ao vivo
+4 - Rankings por região
+5 - Estatísticas por região e período
+6 - Últimas notícias
+7 - Verificar status da API
+```
+> Após a seleção, será salvo um arquivo .json na pasta `data/`
+
 ## 📁 Estrutura do projeto
-- `data/matches_results.json` – partidas coletadas
-- `src/vlr_api.py` – funções de acesso à API
-- `main.py` – script principal de teste
+- `data/` - pasta onde os arquivos .json são salvos
+- `src/vlr_api.py` – função de extração da API
+- `main_menu.py` – menu interativo para acessar a API
 - `requirements.txt` – dependências do projeto
 - `README.md` – descrição do projeto
 
