@@ -4,7 +4,7 @@ Esse projeto foi uma primeira tentativa de coletar dados do site [vlr.gg](https:
 Após testes, foi identificado que não seria possível fazer o tipo de análise desejada com esse data fetcher, pela falta de dados antigos. Por isso, essa abordagem foi descontinuada.
 
 ## Funções 
-- Consumo da API `vlrggapi`
+- Consumo da API [vlrggapi](https://github.com/axsddlr/vlrggapi)
 - Obtenção de resultados, partidas futuras, partidas ao vivo, rankings por região, stats por região e últimas notícias
 - Armazenamento em JSON dos dados
 
