@@ -12,6 +12,18 @@ Após testes, foi identificado que não seria possível fazer o tipo de análise
 - API só retorna jogos recentes
 - Não filtra por times específicos
 
+## Como executar
+Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+E execute o script principal:
+```
+python main.py
+```
+
 ## 📁 Estrutura do projeto
 - `data/matches_results.json` – partidas coletadas
 - `src/vlr_api.py` – funções de acesso à API
