@@ -26,7 +26,7 @@ def extrair_e_salvar(endpoint: str, arquivo: str) -> pd.DataFrame | None:
 
 if __name__ == "__main__":
     # ⬇️ TROQUE AQUI: endpoint desejado e nome do arquivo de saída
-    endpoint = "match?q=results"
-    arquivo = "matches_results.json"
+    endpoint = "rankings?region=br"
+    arquivo = "rankings_br.json"
 
     extrair_e_salvar(endpoint, arquivo)

@@ -1,0 +1,280 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "rank": "1",
+      "team": "MIBR",
+      "country": "Brazil",
+      "last_played": "18d ago",
+      "last_played_team": "vs. G2 Esp",
+      "last_played_team_logo": "//owcdn.net/img/633822848a741.png",
+      "record": "13–6",
+      "earnings": "$3,000",
+      "logo": "//owcdn.net/img/632be7626d6d9.png"
+    },
+    {
+      "rank": "2",
+      "team": "Corinthians Esports",
+      "country": "Brazil",
+      "last_played": "36d ago",
+      "last_played_team": "vs. Stellae Gaming",
+      "last_played_team_logo": "//owcdn.net/img/6597892f756bf.png",
+      "record": "27–13",
+      "earnings": "$51,421",
+      "logo": "//owcdn.net/img/67665f186e8a8.png"
+    },
+    {
+      "rank": "3",
+      "team": "RED Canids",
+      "country": "Brazil",
+      "last_played": "37d ago",
+      "last_played_team": "vs. C",
+      "last_played_team_logo": "//owcdn.net/img/67665f186e8a8.png",
+      "record": "31–20",
+      "earnings": "$50,237",
+      "logo": "//owcdn.net/img/63876c258b1e3.png"
+    },
+    {
+      "rank": "4",
+      "team": "Los Grandes",
+      "country": "Brazil",
+      "last_played": "35d ago",
+      "last_played_team": "vs. Stellae Gaming",
+      "last_played_team_logo": "//owcdn.net/img/6597892f756bf.png",
+      "record": "10–2",
+      "earnings": "$16,566",
+      "logo": "//owcdn.net/img/6798d84cbb88b.png"
+    },
+    {
+      "rank": "5",
+      "team": "LOUD",
+      "country": "Brazil",
+      "last_played": "31d ago",
+      "last_played_team": "vs. Evil Geniuses",
+      "last_played_team_logo": "//owcdn.net/img/667462f046618.png",
+      "record": "10–20",
+      "earnings": "$937,507",
+      "logo": "//owcdn.net/img/62bbec8dc1b9f.png"
+    },
+    {
+      "rank": "6",
+      "team": "Stellae Gaming",
+      "country": "Brazil",
+      "last_played": "35d ago",
+      "last_played_team": "vs. L",
+      "last_played_team_logo": "//owcdn.net/img/6798d84cbb88b.png",
+      "record": "11–6",
+      "earnings": "$13,254",
+      "logo": "//owcdn.net/img/6597892f756bf.png"
+    },
+    {
+      "rank": "7",
+      "team": "2Game Esports",
+      "country": "Brazil",
+      "last_played": "3d ago",
+      "last_played_team": "vs. NRG",
+      "last_played_team_logo": "//owcdn.net/img/6610f026c1a9e.png",
+      "record": "22–21",
+      "earnings": "$57,130",
+      "logo": "//owcdn.net/img/67725c368d524.png"
+    },
+    {
+      "rank": "8",
+      "team": "FURIA",
+      "country": "Brazil",
+      "last_played": "33d ago",
+      "last_played_team": "vs. MIBR",
+      "last_played_team_logo": "//owcdn.net/img/632be7626d6d9.png",
+      "record": "7–14",
+      "earnings": "$129,788",
+      "logo": "//owcdn.net/img/632be843b7d51.png"
+    },
+    {
+      "rank": "9",
+      "team": "pugdesonesto",
+      "country": "Brazil",
+      "last_played": "11d ago",
+      "last_played_team": "vs. Zen eSp",
+      "last_played_team_logo": "//owcdn.net/img/6434f4811e5d6.png",
+      "record": "19–7",
+      "earnings": "$1,657",
+      "logo": "//owcdn.net/img/6820ecfacf27c.png"
+    },
+    {
+      "rank": "10",
+      "team": "MIBR GC",
+      "country": "Brazil",
+      "last_played": "100d ago",
+      "last_played_team": "vs. caramelin",
+      "last_played_team_logo": "//owcdn.net/img/6554e53bca402.png",
+      "record": "12–3",
+      "earnings": "$120,343",
+      "logo": "//owcdn.net/img/632be7626d6d9.png"
+    },
+    {
+      "rank": "11",
+      "team": "PEEK",
+      "country": "Brazil",
+      "last_played": "10d ago",
+      "last_played_team": "vs. Zen eSp",
+      "last_played_team_logo": "//owcdn.net/img/6434f4811e5d6.png",
+      "record": "30–12",
+      "earnings": "$5,759",
+      "logo": "//owcdn.net/img/669049dd17504.png"
+    },
+    {
+      "rank": "12",
+      "team": "FURIA Academy",
+      "country": "Brazil",
+      "last_played": "41d ago",
+      "last_played_team": "vs. C",
+      "last_played_team_logo": "//owcdn.net/img/67665f186e8a8.png",
+      "record": "6–5",
+      "earnings": "$4,141",
+      "logo": "//owcdn.net/img/67a18f336c9f4.png"
+    },
+    {
+      "rank": "13",
+      "team": "Team Liquid Brazil",
+      "country": "Brazil",
+      "last_played": "119d ago",
+      "last_played_team": "vs. F4TALITY",
+      "last_played_team_logo": "//owcdn.net/img/673b3c4a53aaf.png",
+      "record": "15–5",
+      "earnings": "$151,816",
+      "logo": "//owcdn.net/img/640c381f0603f.png"
+    },
+    {
+      "rank": "14",
+      "team": "RET",
+      "country": "Brazil",
+      "last_played": "25d ago",
+      "last_played_team": "vs. AXKRUM",
+      "last_played_team_logo": "//owcdn.net/img/65260f824a6df.png",
+      "record": "1–1",
+      "earnings": "$1,507",
+      "logo": ""
+    },
+    {
+      "rank": "15",
+      "team": "2Game Academy",
+      "country": "Brazil",
+      "last_played": "41d ago",
+      "last_played_team": "vs. RED Canids",
+      "last_played_team_logo": "//owcdn.net/img/63876c258b1e3.png",
+      "record": "4–4",
+      "earnings": "$4,141",
+      "logo": "//owcdn.net/img/67725c368d524.png"
+    },
+    {
+      "rank": "16",
+      "team": "Vila do Zana",
+      "country": "Brazil",
+      "last_played": "48d ago",
+      "last_played_team": "vs. FURIA Academy",
+      "last_played_team_logo": "//owcdn.net/img/67a18f336c9f4.png",
+      "record": "5–4",
+      "earnings": "$2,816",
+      "logo": "//owcdn.net/img/67aa5b24c98c2.png"
+    },
+    {
+      "rank": "17",
+      "team": "F4TALITY",
+      "country": "Brazil",
+      "last_played": "14d ago",
+      "last_played_team": "vs. Artic Tiger",
+      "last_played_team_logo": "/img/vlr/tmp/vlr.png",
+      "record": "16–12",
+      "earnings": "$1,756",
+      "logo": "//owcdn.net/img/673b3c4a53aaf.png"
+    },
+    {
+      "rank": "18",
+      "team": "Rain7 Master",
+      "country": "Brazil",
+      "last_played": "25d ago",
+      "last_played_team": "vs. Underh",
+      "last_played_team_logo": "//owcdn.net/img/6690473b1d799.png",
+      "record": "4–2",
+      "earnings": "$0",
+      "logo": ""
+    },
+    {
+      "rank": "19",
+      "team": "OSKARAVELHO",
+      "country": "Brazil",
+      "last_played": "200d ago",
+      "last_played_team": "vs. OSKARAMONO",
+      "last_played_team_logo": "/img/vlr/tmp/vlr.png",
+      "record": "1–1",
+      "earnings": "$557",
+      "logo": "//owcdn.net/img/61de0106e2795.png"
+    },
+    {
+      "rank": "20",
+      "team": "Underhounds",
+      "country": "Brazil",
+      "last_played": "25d ago",
+      "last_played_team": "vs. F4TALITY",
+      "last_played_team_logo": "//owcdn.net/img/673b3c4a53aaf.png",
+      "record": "5–0",
+      "earnings": "$242",
+      "logo": "//owcdn.net/img/6690473b1d799.png"
+    },
+    {
+      "rank": "21",
+      "team": "SAGAZ",
+      "country": "Brazil",
+      "last_played": "28d ago",
+      "last_played_team": "vs. F4TALITY",
+      "last_played_team_logo": "//owcdn.net/img/673b3c4a53aaf.png",
+      "record": "5–8",
+      "earnings": "$1,657",
+      "logo": "//owcdn.net/img/663b1b74f32c5.png"
+    },
+    {
+      "rank": "22",
+      "team": "TBK Esports",
+      "country": "Brazil",
+      "last_played": "49d ago",
+      "last_played_team": "vs. FURIA Academy",
+      "last_played_team_logo": "//owcdn.net/img/67a18f336c9f4.png",
+      "record": "6–8",
+      "earnings": "$3,369",
+      "logo": "//owcdn.net/img/61d39894f3d3a.png"
+    },
+    {
+      "rank": "23",
+      "team": "MIBR Academy",
+      "country": "Brazil",
+      "last_played": "56d ago",
+      "last_played_team": "vs. Agr",
+      "last_played_team_logo": "//owcdn.net/img/6798af4757116.png",
+      "record": "1–5",
+      "earnings": "$1,657",
+      "logo": "//owcdn.net/img/67127fdb2ae3e.png"
+    },
+    {
+      "rank": "24",
+      "team": "NoOrg9",
+      "country": "Brazil",
+      "last_played": "25d ago",
+      "last_played_team": "vs. F4TALITY",
+      "last_played_team_logo": "//owcdn.net/img/673b3c4a53aaf.png",
+      "record": "11–13",
+      "earnings": "$40",
+      "logo": "//owcdn.net/img/66b2e36311940.png"
+    },
+    {
+      "rank": "25",
+      "team": "Agropesca Jacare",
+      "country": "Brazil",
+      "last_played": "15d ago",
+      "last_played_team": "vs. Artic Tiger",
+      "last_played_team_logo": "/img/vlr/tmp/vlr.png",
+      "record": "16–22",
+      "earnings": "$1,657",
+      "logo": "//owcdn.net/img/6798af4757116.png"
+    }
+  ]
+}
