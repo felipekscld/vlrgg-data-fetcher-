@@ -47,3 +47,6 @@ python main.py
 - `main.py` – script principal de teste
 - `requirements.txt` – dependências do projeto
 - `README.md` – descrição do projeto
+
+## Licença
+[Licença MIT](LICENSE)
