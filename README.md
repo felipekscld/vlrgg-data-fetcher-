@@ -22,6 +22,7 @@ Você pode alterar o valor da variável `endpoint` no script `main.py` para cole
 | Últimas notícias          | `news`                                    | `noticias.json`                   |
 | Verificação da API        | `health`                                  | opcional
 
+- O nome do arquivo que você escolher vai ser criado na pasta `data`
 > ℹ️ **Para o endpoint** `rankings`, você pode alterar o valor de `region` para:  
 > `br`, `na`, `latam`, `eu`, `asia`, `kr`, `oce`, `mena`, `jp`, `tr` ou `world`.
 
@@ -46,3 +47,6 @@ python main.py
 - `main.py` – script principal de teste
 - `requirements.txt` – dependências do projeto
 - `README.md` – descrição do projeto
+
+## Licença
+[Licença MIT](LICENSE)
