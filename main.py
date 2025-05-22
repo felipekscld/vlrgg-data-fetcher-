@@ -2,25 +2,31 @@ import sys
 import os
 import pandas as pd
 
-# Adiciona a pasta 'src' ao caminho de importação
+# Habilita importações do diretório 'src'
 sys.path.append(os.path.abspath("src"))
-
 from vlr_api import extrair_endpoint_vlrgg
 
-# Define o endpoint e o caminho de saída
-endpoint = "match?q=results"
-output_path = "data/matches_results.json"
+def extrair_e_salvar(endpoint: str, arquivo: str) -> pd.DataFrame | None:
+    os.makedirs("data", exist_ok=True)
+    caminho = os.path.join("data", arquivo)
 
-# Extrai os dados da API
-resultado = extrair_endpoint_vlrgg(
-    endpoint=endpoint,
-    salvar_em=output_path,
-    como_dataframe=True
-)
+    df = extrair_endpoint_vlrgg(
+        endpoint=endpoint,
+        salvar_em=caminho,
+        como_dataframe=True
+    )
 
-# Verifica se o retorno é um DataFrame antes de usá-lo
-if isinstance(resultado, pd.DataFrame) and not resultado.empty:
-    print(f"✅ {len(resultado)} partidas coletadas com sucesso.\n")
-    print(resultado.head())
-else:
-    print("⚠️ Nenhum dado retornado ou erro na requisição.")
+    if isinstance(df, pd.DataFrame) and not df.empty:
+        print(f"✅ {len(df)} registros extraídos de '{endpoint}'")
+        print(df.head(10))
+        return df
+
+    print(f"⚠️ Nenhum dado retornado para '{endpoint}'")
+    return None
+
+if __name__ == "__main__":
+    # ⬇️ TROQUE AQUI: endpoint desejado e nome do arquivo de saída
+    endpoint = "match?q=results"
+    arquivo = "matches_results.json"
+
+    extrair_e_salvar(endpoint, arquivo)
