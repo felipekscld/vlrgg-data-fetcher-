@@ -47,6 +47,7 @@ def extrair_endpoint_vlrgg(
     url = f"{base_url}/{endpoint}"
 
     try:
+        print(f"Tentando acessar: {url}")  # Debug line to see the full URL
         response = _session.get(url, timeout=timeout)
         response.raise_for_status()
         dados = response.json()
@@ -62,6 +63,7 @@ def extrair_endpoint_vlrgg(
 
     except requests.RequestException as e:
         print(f"Erro na requisição: {e}")
+        print(f"URL tentada: {url}")  # Debug line to show the URL that failed
         return None
 
     except Exception as e:
