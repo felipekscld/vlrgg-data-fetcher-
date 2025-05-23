@@ -88,8 +88,7 @@ def _convert_to_dataframe(dados: Union[dict, list]) -> pd.DataFrame:
 def clear_cache():
     extrair_endpoint_vlrgg.cache_clear()
 
-# Demonstração: só roda se executar diretamente este arquivo
 if __name__ == "__main__":
-    data = extrair_endpoint_vlrgg("match?q=results")          # endpoint correto
+    data = extrair_endpoint_vlrgg("match?q=results")          
     data = extrair_endpoint_vlrgg("match?q=results", timeout=15)
     clear_cache()
