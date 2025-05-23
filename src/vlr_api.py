@@ -47,7 +47,7 @@ def extrair_endpoint_vlrgg(
     url = f"{base_url}/{endpoint}"
 
     try:
-        print(f"Tentando acessar: {url}")  # Debug line to see the full URL
+        print(f"Tentando acessar: {url}")  
         response = _session.get(url, timeout=timeout)
         response.raise_for_status()
         dados = response.json()
@@ -63,7 +63,7 @@ def extrair_endpoint_vlrgg(
 
     except requests.RequestException as e:
         print(f"Erro na requisição: {e}")
-        print(f"URL tentada: {url}")  # Debug line to show the URL that failed
+        print(f"URL tentada: {url}")  
         return None
 
     except Exception as e:
@@ -85,16 +85,11 @@ def _convert_to_dataframe(dados: Union[dict, list]) -> pd.DataFrame:
     
     raise ValueError("Formato inesperado para conversão em DataFrame")
 
-# Clear cache if needed
 def clear_cache():
-    """Limpa o cache de requisições."""
     extrair_endpoint_vlrgg.cache_clear()
 
-# Basic usage (with caching)
-data = extrair_endpoint_vlrgg("matches/results")
-
-# With custom timeout
-data = extrair_endpoint_vlrgg("matches/results", timeout=15)
-
-# Clear cache if needed
-clear_cache()
+# Demonstração: só roda se executar diretamente este arquivo
+if __name__ == "__main__":
+    data = extrair_endpoint_vlrgg("match?q=results")          # endpoint correto
+    data = extrair_endpoint_vlrgg("match?q=results", timeout=15)
+    clear_cache()
