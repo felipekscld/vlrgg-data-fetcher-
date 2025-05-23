@@ -32,16 +32,16 @@ def extrair_e_salvar(endpoint, filename):
         print(f"\n⚠️ Nenhum dado retornado ou erro na requisição.")
 
 def menu():
-    def resultados(): extrair_e_salvar("match?q=results", "matches_results.json")
-    def futuras(): extrair_e_salvar("match?q=upcoming", "matches_upcoming.json")
-    def ao_vivo(): extrair_e_salvar("match?q=live_score", "matches_live.json")
+    def resultados(): extrair_e_salvar("matches/results", "matches_results.json")
+    def futuras(): extrair_e_salvar("matches/upcoming", "matches_upcoming.json")
+    def ao_vivo(): extrair_e_salvar("matches/live", "matches_live.json")
     def rankings():
         r = escolher_regiao()
-        extrair_e_salvar(f"rankings?region={r}", f"rankings_{r}.json")
+        extrair_e_salvar(f"rankings/{r}", f"rankings_{r}.json")
     def estatisticas():
         r = escolher_regiao()
         t = escolher_timespan()
-        extrair_e_salvar(f"stats?region={r}&timespan={t}", f"stats_{r}_{t}.json")
+        extrair_e_salvar(f"stats/{r}/{t}", f"stats_{r}_{t}.json")
     def noticias(): extrair_e_salvar("news", "news.json")
     def health(): extrair_e_salvar("health", "health.json")
 
